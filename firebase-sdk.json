@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "instantattenddb",
+  "private_key_id": "48d4ad0ce56304518b6ea05b286b3cbf1e7f2121",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDnhBTZM6lkAe6f\nssEQ0fVMivXv8C6IhpUEyVf/+vuyHb6XUr9cha+Iw8nFSmqbHBt/p57XNHjrlIxN\nIOg9X+QpZ+iuu45my+Fu0CSVcmFNVB6/CAJA7ap2jekP9e24zGajIz7CiASSH36u\n2W7bsYdgzoqLVh25Fww+x9jLoL3z8Jf7D9444GwujXvwTBhaew7G4/P4FwDKu5BE\n8U+xB5assJQh1mUXciiHdSmjbLL561+PGprg67nl3rVgnd2mG2p0VsAWSxN7SeCa\nAGN3IrSlbitwTNHfEBFixm2C5ZFw2vbAVWGljfhcNh6gNEmLyUyhkcvjTWic6TgT\noS5uXNzfAgMBAAECggEAHrHbVcTMs46yBYhcoo9Dt4dA/jPY5474WO8c9Lpg/oeF\nCmkVJ/4tfLOAn+Cy66e5WZ5up9e0JH/Ibj1rrR92j6rQJcKGKcjkNZ3xC8NjdS4u\n+WLlcZhRHnDIMq6HexXWkdCNdJs2B+2XDTWUxhnuef5IThr3y99rZzN14eGI7bt6\nyYKemTIqC/+o7/xFVkuZRCvOVZcumyoFipscsM5B3D4vrGJcIlh+tfVTH5ZbHHXA\nR1isR2YT9JHfqR1SmUXqfGYzXi2B+X3clOtk+noxRWCNRBEmKo1pH5vtPRMWmJcc\nsMINaLf/ueCUbsz/J9opzFoojvC8mcpBkIJ4daVwWQKBgQD4Z4wCbX6Z477QhmDJ\nBklNWGZTvGehY+sGqqH6fXDgAwIkP32qkeF6+mYVGINmV///fByCMlEraBKHoxZ3\nfyRaorZ7awupat4yCq/EOufqJE5MzUqnnrDukGXhWBgU1iNbvSzK+yFrzUlZwHUk\nisYBn33cgSm0IDxgEHZruqw0CwKBgQDumFW/GndwlvJ37HYoRjsjOXxJAykistbD\nRZ2EhVHAZnJOdPOCbwmIFzy3HpfJDufJ3w0xOOPv9r8PoUZarHlhtyYBbJ0wZ+3f\n6oCPgYzK7fbeS1/ocOEiYReaTyZa/0CCeU+Xjmwusb2XIw5PybtTiX0ti+ETBEui\n7YLTMo8K/QKBgQCIyLwYOiMUqoxQVy7Eg2mp5ZuzUHPgMx0gNqWrQZf+QqnTPAL/\nAgWfqnK7+xugJ6UYEkfAieSYel55whyFAMYMAr1piLCLQgXImInhDG7YR9W2BPWv\nB3t2Yp03UUMxdhlSUwFvZIoqyogxnADldmVCT4kG+zjzryyP2YDcIZbhsQKBgAz2\n2AnnPUAv44LipVTw4/u4/ujUtCJ/hy3bFYEC4XtL1cAvmJ+ouuLbKGBm2CaDmdKd\nPRFEnxYF2UHXKIR6xKmrkvQW27+qlgFJs6yYhHbuUTCo9dAiegktL2QiEtp07iNo\nxgtdIMG0xLF2pStusbALU3LrG9K1tAppT2d8YstdAoGAHYF/YRg/D+3IOfGAlmZc\nlYmI6ZAhNBgjhI2QTZIDYVyQbcV6wKSMKNuSgTrvVhJRYU9NGm3slimtGp/gprD3\nmaLlJPk7KW93hLrIWseo4tbN/e0uSY1PVEjfYzPXXK+9kKeqIemOAD01JYK9iUY5\nW+F+SOvz7Z520Q1LzbdAqEI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-83fpr@instantattenddb.iam.gserviceaccount.com",
+  "client_id": "108572411892875898479",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-83fpr%40instantattenddb.iam.gserviceaccount.com"
+}

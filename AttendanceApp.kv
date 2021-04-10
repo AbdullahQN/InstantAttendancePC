@@ -1,0 +1,197 @@
+
+ScreenManager:
+    Login:
+    HomeScreen:
+    CameraView:
+    Done:
+
+
+
+
+
+
+
+<Login>:
+    name:"Login1"
+    email:email
+    password:password
+
+
+    MDGridLayout:
+        rows:3
+        size: root.width -100, root.height-100
+        padding:50
+        spacing:40
+        Image:
+            source: 'logo.png'
+            size: self.texture_size
+            size_hint_y:0.8
+            valign:"middle"
+            halign:"center"
+
+
+
+        
+        MDGridLayout:
+            rows:2
+            padding:10
+            spacing:10
+            size_hint_y:0.4
+            MDTextField:
+                #mode: "rectangle"
+                icon_right: "account"
+                hint_text: "Enter Your Faculty Email"
+                size_hint_y:0.3
+                size_hint_x:0.75
+                required: True
+                id:email
+                multiline: False
+            MDTextField:
+                #mode: "rectangle"
+                icon_right: "key"
+                password: True
+                size_hint_x:0.75
+                hint_text: "Please Enter Your Password"
+                size_hint_y:0.3
+                id:password
+                required: True
+                multiline: False
+        
+        MDRaisedButton:
+            size_hint_y:0.2
+            size_hint_x:0.6
+            text:"Log in "
+            valign:'middle'
+            halign:'center'
+            size_hint_x:0.75
+            on_press: root.try_login()
+
+
+
+
+<HomeScreen>:
+    name:"HomeScreen1"
+
+    MDGridLayout:
+
+        rows:6
+
+        MDToolbar:
+            size_hint_y:0.20
+            title: "Home Screen"
+            right_action_items: [["dots-vertical", lambda x: app.callback()]]
+        MDGridLayout:
+            cols:3
+            size_hint_y:0.20
+            MDLabel:
+                text: root.datec
+                bold: True
+                theme_text_color: "Primary"
+                halign:'left'
+                valign:'center'
+            MDLabel:
+                row_height:60
+                text:"Logo"
+                bold: True
+                theme_text_color: "Primary"
+                halign:'center'
+                valign:'center'
+            MDLabel:
+                row_height:60
+                text: root.hourc
+                bold: True
+                theme_text_color: "Primary"
+                halign:'right'
+                valign:'center'
+        MDSeparator:
+            row_height:3
+            height: "2dp"
+        MDLabel:
+            size_hint_y:0.2
+            text:"Sections "
+            valign:'middle'
+            halign:'center'
+            md_bg_color: 1, 0, 1, 1
+        MDSeparator:
+            row_height:3
+            height: "2dp"
+
+        MDScrollViewRefreshLayout:
+            id: refresh_layout
+            refresh_callback: root.refresh_callback
+            root_layout: root
+
+            MDGridLayout:
+                id: box
+                adaptive_height: True
+                cols: 1
+
+
+
+
+
+<CameraView>:
+    name:"CameraView1"
+    orientation: 'vertical'
+    inside:inside
+    takan:takan
+    takax:takax
+    outside:outside
+    size: root.width,root.height
+    MDGridLayout:
+        id:outside
+        rows:2
+        MDGridLayout:
+            id:inside
+            cols:2
+            size_hint_y:10.9
+            padding: 3
+            spacing: 3
+        MDGridLayout:
+            padding: 10
+            spacing: 10
+            cols:2
+            rows:1
+
+            MDRaisedButton:
+                id: takan
+                text: 'Take Picture'
+                size_hint_y: 0.2
+                size_hint_x: 0.5
+                on_press: root.capture()
+            MDRaisedButton:
+                id: takax
+                text: 'Take Attendance'
+                size_hint_y: 0.2
+                size_hint_x:0.5
+                on_press: root.detectf()
+
+
+
+
+<Done>:
+    name:"Done1"
+    orientation: 'vertical'
+    size: root.width,root.height
+
+    MDGridLayout:
+        rows:3
+        size: root.width -100, root.height-100
+        padding:40
+        spacing:40
+
+        MDLabel:
+            row_height:60
+            text:"Successfully Taken Attendance"
+            theme_text_color: "Primary"
+            halign:'center'
+            valign:'center'
+        MDRaisedButton:
+            text: 'View Excel'
+            size_hint_y: None
+            on_press: root.viewexcel()
+
+        MDRaisedButton:
+            text: 'Go To Home Screen'
+            size_hint_y: None
+            on_press: root.gotohome()
